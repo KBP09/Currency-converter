@@ -9,6 +9,9 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
+h2{
+    font-size: 50px;
+}
 .container{
     background-color: white;
     padding: 3rem;
@@ -18,4 +21,45 @@ body{
 }
 form{
     margin: 3rem 0 2rem 0;
+    font-size: 20px;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    border-radius: 0.75rem;
+    outline: none;
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+    border: 1px solid black;
+}
+.select-container img{
+    max-width: 2.75rem;
+}
+button{
+    margin-top: 2rem;
+    background-color: blueviolet;
+    color: cornsilk;
+    font-size: 15px;
+    height: 3rem;
+}
+.msg{
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 20px;
 }
